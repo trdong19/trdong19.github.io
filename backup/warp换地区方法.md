@@ -9,10 +9,13 @@ NekoRay (Windows / Linux)【[点击直达](https://github.com/MatsuriDayo/nekora
 warp文件，国内下载地(无需翻墙)【[点击直达](https://pan.xunlei.com/s/VNu77ORq455Q6bM6l0cOBd_YA1?pwd=mgdc#)】解压密码：0329
 warp文件，电报下载需要翻墙！【[点击直达](https://t.me/qiankejpd/433)】
 其他系统：iOS，安卓详细分流教程【[点击直达](https://kjgx668.blogspot.com/2023/07/warpvpnioswarpwindow-ioswarp_53.html)】
-代码：
+使用方法：
+1.点击上方秘钥获取，获取warp+的key
+2.使用warp文件的优选ip，获取到ip和端口
+3.使用下面代码，：
 
 warp -b 0.0.0.0:端口号随意填写 -e 优选ip:端口号 -k g8lG9B50-Ge346l2I-5FeYv182 -country 国家代码 -cfon
-
+warp -b 0.0.0.0:3213 -e 162.159.195.119:859  -k g8lG9B50-Ge346l2I-5FeYv182 -country US -cfon
 
 
 IP查询【[点击直达](https://ip.gs/)】
