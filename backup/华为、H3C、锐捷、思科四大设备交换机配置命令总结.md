@@ -67,7 +67,44 @@
 <Quidway>display interface ？ //显示个端口状态，用？可以查看后边跟的选项
 <Quidway>display version //查看交换机固件版本信息
 <Quidway>display vlan ？ // 查看vlan的配置信息
+dis logbuffer 查询交换机日志
 
+dis arp | include 10.0.0.1 查询该网段已使用的ip
+
+dis arp | include 0/0/1 查询该端口下的ip
+
+dis clock 查询时间
+
+display version 查设备信息，具体型号*
+
+display ip routing-table 查询路由表
+
+display ip interface brief 查看接口与ip相关信息*
+
+display interface brief 查看接口状态*
+
+dis ip pool 查询ip地址池
+
+dis elable 查询设备序列号
+
+display power manage power-information 查看POE供电
+
+display counters rate 查看接口的入方向或出方向流量速率
+
+display counters error 查看错误报文的统计信息
+
+display counters 查看接口流量的统计数据
+
+display ip interface 查看接口和IP配置的相关信息
+
+display ip interface description 显示接口与IP相关的简要信息
+
+display current-configuration 查看交换机全局配置*（dis cu）
+
+Display mac-address dynamic 查看交换机动态mac地址表*
+
+clear configuration interface GigabitEthernet 0/0/x 删除某个端口的配置
+若是在端口下：clear configuration this
 
 
 8、恢复交换机出厂设置
