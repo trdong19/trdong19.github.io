@@ -1,5 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Blog Title</title><link>https://trdong19.github.io</link><description>Blog description</description><copyright>Blog Title</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://trdong19.github.io</link></image><lastBuildDate>Sat, 18 May 2024 18:07:36 +0000</lastBuildDate><managingEditor>Blog Title</managingEditor><ttl>60</ttl><webMaster>Blog Title</webMaster><item><title>docker 构建别人项目过程</title><link>https://trdong19.github.io/post/docker%20-gou-jian-bie-ren-xiang-mu-guo-cheng.html</link><description>先把项目源码下载下来：&#13;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Blog Title</title><link>https://trdong19.github.io</link><description>Blog description</description><copyright>Blog Title</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://trdong19.github.io</link></image><lastBuildDate>Sun, 19 May 2024 13:18:02 +0000</lastBuildDate><managingEditor>Blog Title</managingEditor><ttl>60</ttl><webMaster>Blog Title</webMaster><item><title>Docker安装wordpress并配置mysql数据库</title><link>https://trdong19.github.io/post/Docker-an-zhuang-wordpress-bing-pei-zhi-mysql-shu-ju-ku.html</link><description>一、拉取wordpress镜像(默认最新)&#13;
+这一步和代理仓库有关，可能拉取时间偏久一点(出错时多拉取一次)&#13;
+docker pull wordpress&#13;
+![image](https://github.com/trdong19/trdong19.github.io/assets/84180727/b0ae217a-a9f0-4c6c-a7e6-53b27c7711fe)&#13;
+&#13;
+&#13;
+二、启动wordpress容器&#13;
+启动容器，设置容器名为mywordpress2并把80端口映射到宿主机的9999端口&#13;
+docker run -it --name mywordpress2 -p 9999:80 -d wordpress&#13;
+![image](https://github.com/trdong19/trdong19.github.io/assets/84180727/fa636b2f-9014-49b8-ab45-f85d5bb864ec)&#13;
+&#13;
+&#13;
+要添加挂载硬盘，可以使用 -v 参数来指定挂载点。</description><guid isPermaLink="true">https://trdong19.github.io/post/Docker-an-zhuang-wordpress-bing-pei-zhi-mysql-shu-ju-ku.html</guid><pubDate>Sun, 19 May 2024 13:17:36 +0000</pubDate></item><item><title>docker 构建别人项目过程</title><link>https://trdong19.github.io/post/docker%20-gou-jian-bie-ren-xiang-mu-guo-cheng.html</link><description>先把项目源码下载下来：&#13;
 ![image](https://github.com/trdong19/trdong19.github.io/assets/84180727/1f0659e8-ce69-4d79-b857-4a40d64f09c4)&#13;
 接在解压，进入目录找到Dockerfile文件所在目录位置，输入命令&#13;
 docker build -t xxxx .  （‘xxxx’是构建项目的名称，'.'是Dockerfile文件在当前目录，如果不在需要换成所在目录的路程）。</description><guid isPermaLink="true">https://trdong19.github.io/post/docker%20-gou-jian-bie-ren-xiang-mu-guo-cheng.html</guid><pubDate>Sat, 18 May 2024 18:07:13 +0000</pubDate></item><item><title>ubuntu22.04中使用阿里云镜像站安装docker</title><link>https://trdong19.github.io/post/ubuntu22.04-zhong-shi-yong-a-li-yun-jing-xiang-zhan-an-zhuang-docker.html</link><description>安装一些依赖。</description><guid isPermaLink="true">https://trdong19.github.io/post/ubuntu22.04-zhong-shi-yong-a-li-yun-jing-xiang-zhan-an-zhuang-docker.html</guid><pubDate>Sat, 18 May 2024 17:02:20 +0000</pubDate></item><item><title>windows10系统直接官网下载</title><link>https://trdong19.github.io/post/windows10-xi-tong-zhi-jie-guan-wang-xia-zai.html</link><description>- 1.家庭版、专业、教育版的下载方法&#13;
